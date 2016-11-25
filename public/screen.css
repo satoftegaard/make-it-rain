@@ -5,4 +5,45 @@ html {
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+  min-height: 100%;
+  background-color: rgb(192, 227, 226);
+  justify-content: center;
+  display: flex;
+}
+
+section {
+  margin-top: 50px;
+  height: 400px;
+  width: 500px;
+  background-color: rgb(192, 227, 226);
+  border-style: solid;
+  border-color: rgb(187, 221, 220);
+  border-radius: 5px;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  color: rgb(51, 63, 92);
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  margin-left: 170px;
+  margin-top: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Sansita One', cursive;
+  font-size: 16px;
+  color: white;
+}
+
+.drop {
+  height: 20px;
+  width: 20px;
+  position: absolute;
 }
